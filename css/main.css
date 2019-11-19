@@ -26,20 +26,16 @@ img {
   width: 100%;
 }
 
-
-
-.dino {
-
-}
-
 .dino:nth-child(even) {
   display: none;
 }
 
 @media only screen and (min-width: 25em) {
+
   .dino:nth-child(even) {
     display: block;
   }
+
   .dino-wrap {
     display: flex;
     flex-wrap: wrap;
